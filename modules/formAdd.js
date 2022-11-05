@@ -8,4 +8,4 @@ const formAdd = (awesomeBookShelf) => {
   awesomeBookShelf.saveDataToLocalStorage();
 };
 
-export {formAdd};
+export default formAdd;

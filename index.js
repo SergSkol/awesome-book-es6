@@ -1,6 +1,6 @@
 import BookShelf from './modules/bookShelf.js';
-import {showList, showAdd, showContact} from './modules/menuShow.js';
-import {formAdd} from './modules/formAdd.js';
+import { showList, showAdd, showContact } from './modules/menuShow.js';
+import formAdd from './modules/formAdd.js';
 import { DateTime } from './modules/luxon.js';
 
 const linkAdd = document.querySelector('#link-add');
@@ -30,7 +30,8 @@ currentFormBookAddButton.addEventListener('click', () => {
 const timer = () => {
   const now = DateTime.now();
   dateTimeBar.innerHTML = now.toLocaleString(DateTime.DATETIME_MED);
-}
+};
+
 setInterval(timer, 1000);
 
 window.onload = () => {
