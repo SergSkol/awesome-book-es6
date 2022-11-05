@@ -1,0 +1,134 @@
+body {
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.book-selection {
+  max-width: 500px;
+  margin: 0 auto;
+  height: 6vh;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid #3e3e3e;
+}
+
+.book-selector {
+  margin: 5px 0 0 5px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-desc {
+  list-style: none;
+  border-right: 2px solid #3e3e3e;
+  margin: 0 5px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.links-desc:hover {
+  color: blue;
+}
+
+.date {
+  float: right;
+  margin-bottom: 30px;
+}
+
+.book-container {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.book-list {
+  border: 5px solid #807c7c;
+}
+
+.app-name {
+  text-align: center;
+}
+
+.nobulls {
+  list-style: none;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+button#book-add-button {
+  margin-top: 10px;
+}
+
+.book-remove-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.book-item {
+  padding: 5px 5px;
+  position: relative;
+}
+
+.book-item:nth-child(even) {
+  background-color: #807c7c;
+}
+
+.book-title,
+.book-author {
+  margin-bottom: 5px;
+}
+
+.form {
+  text-align: center;
+}
+
+.form-title {
+  font-size: 24px;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+.footer {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 5px solid #3e3e3e;
+  height: 6vh;
+  position: relative;
+}
+
+.footer-title {
+  margin: 5px;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.contributor {
+  position: absolute;
+  right: 0;
+  top: -10px;
+  display: flex;
+  margin: 0 5px;
+}
+
+.contributors {
+  padding: 0 5px;
+}
+
+.hide {
+  display: none;
+}
