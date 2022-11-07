@@ -36,7 +36,7 @@ Contributions, issues, and feature requests are welcome!
 
 ### Go Live
 
-https://SergSkol.github.io/awesome-book-es6.git/
+https://sergskol.github.io/awesome-book-es6/
 
 ## Show your support
 
@@ -45,6 +45,7 @@ Give a :star:️ if you like this project!
 ## Acknowledgments
 
 - www.microverse.com
+- https://moment.github.io/luxon/#/?id=luxon
 
 ## :memo: License
 
