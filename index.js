@@ -29,7 +29,7 @@ currentFormBookAddButton.addEventListener('click', () => {
 
 const timer = () => {
   const now = DateTime.now();
-  dateTimeBar.innerHTML = now.toLocaleString(DateTime.DATETIME_MED);
+  dateTimeBar.innerHTML = now.toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
 };
 
 setInterval(timer, 1000);
