@@ -16,6 +16,8 @@ export default class BookShelf {
 
   removeBook(id) {
     this.arrBooks = this.arrBooks.filter((book) => book.id !== id);
+    const bookItem = document.getElementById(id);
+    bookItem.remove();
   }
 
   saveDataToLocalStorage() {
@@ -41,6 +43,7 @@ export default class BookShelf {
     const bookList = document.querySelector('.book-list');
     this.arrBooks.forEach((book) => {
       const bookItem = addElement('div', bookList, 'book-item');
+      bookItem.setAttribute("id", book.id);
       const bookTitle = addElement('div', bookItem, 'book-title');
       bookTitle.innerHTML = `" ${book.title} "  +  by ${book.author}`;
 
@@ -54,7 +57,6 @@ export default class BookShelf {
       bookRemoveButton.addEventListener('click', () => {
         this.removeBook(book.id);
         this.saveDataToLocalStorage();
-        window.location.reload();
       });
     });
   }
