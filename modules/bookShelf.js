@@ -43,7 +43,7 @@ export default class BookShelf {
     const bookList = document.querySelector('.book-list');
     this.arrBooks.forEach((book) => {
       const bookItem = addElement('div', bookList, 'book-item');
-      bookItem.setAttribute("id", book.id);
+      bookItem.setAttribute('id', book.id);
       const bookTitle = addElement('div', bookItem, 'book-title');
       bookTitle.innerHTML = `" ${book.title} "  +  by ${book.author}`;
 
